@@ -1401,6 +1401,20 @@
         "supports_tool_choice": true,
         "supports_prompt_caching": true
     },
+    "openrouter/deepseek/deepseek-chat": {
+        "max_tokens": 4096,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": 0.00000014,
+        "input_cost_per_token_cache_hit": 0.000000014,
+        "output_cost_per_token": 0.00000028,
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_assistant_prefill": true,
+        "supports_tool_choice": true,
+        "supports_prompt_caching": true
+    },
     "codestral/codestral-latest": {
         "max_tokens": 8191,
         "max_input_tokens": 32000,
